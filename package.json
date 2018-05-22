@@ -1,0 +1,29 @@
+{
+  "name": "component-register-react",
+  "description": "A webcomponent wrapper for React Components",
+  "version": "0.0.1",
+  "author": "Ryan Carniato",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryansolid/solid"
+  },
+  "main": "lib/component-register-react.js",
+  "module": "src/index.js",
+  "scripts": {
+    "prepublishOnly": "rollup -c"
+  },
+  "peerDependencies": {
+    "component-register": "0.4.x",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-shadow-dom-retarget-events": "^1.0.8"
+  },
+  "devDependencies": {
+    "rollup": "^0.59.2",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-shadow-dom-retarget-events": "^1.0.8"
+  }
+}
