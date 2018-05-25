@@ -1,7 +1,7 @@
 {
   "name": "component-register-react",
   "description": "A webcomponent wrapper for React Components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Ryan Carniato",
   "license": "MIT",
   "repository": {

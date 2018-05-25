@@ -9,11 +9,11 @@ This is a [Component Register](https://github.com/ryansolid/component-register) 
     // Normal React Component
     class MyComponent extends Component
       constructor(props) {
-        @state = {greeting: 'Hello'}
+        this.state = {greeting: 'Hello'}
       }
 
       render() {
-        return <div>{@state.greeting + ' ' + @props.recipient}</div>
+        return <div>{this.state.greeting + ' ' + this.props.recipient}</div>
       }
 
     export default compose(
