@@ -1,7 +1,7 @@
 {
   "name": "component-register-react",
   "description": "A webcomponent wrapper for React Components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Ryan Carniato",
   "license": "MIT",
   "repository": {
@@ -14,7 +14,7 @@
     "prepublishOnly": "rollup -c"
   },
   "peerDependencies": {
-    "component-register": "0.4.x",
+    "component-register": "0.5.x",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-shadow-dom-retarget-events": "^1.0.8"
