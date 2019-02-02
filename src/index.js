@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import retargetEvents from 'react-shadow-dom-retarget-events';
 
 export default (ReactComponent) =>
-  ({ element, props }) => {
+  (props, { element }) => {
     var mountEl = element.renderRoot();
     ReactDOM.render(React.createElement(ReactComponent, props), mountEl);
     retargetEvents(mountEl);
