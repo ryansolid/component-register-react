@@ -8,7 +8,7 @@ import withReact from 'component-register-react'
 import React, { Component }  from 'react'
 
 // Normal React Component
-class MyComponent extends Component
+class MyComponent extends Component {
   constructor(props) {
     this.state = {greeting: 'Hello'}
   }
@@ -16,6 +16,7 @@ class MyComponent extends Component
   render() {
     return <div>{this.state.greeting + ' ' + this.props.recipient}</div>
   }
+}
 
 export default compose(
   register('my-component', {recipient: 'John'})
