@@ -14,7 +14,7 @@
     "prepublishOnly": "rollup -c"
   },
   "dependencies": {
-    "react-shadow-dom-retarget-events": "^1.0.8"
+    "react-shadow-dom-retarget-events": "^1.0.11"
   },
   "peerDependencies": {
     "component-register": "0.7.x",
